@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unidad Educativa Salesiana Fiscomisional Domingo Savio</title>
+    <link rel="stylesheet" href="styless.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Unidad Educativa Salesiana Fiscomisional Domingo Savio</h1>
+        <div class="qr-generator">
+            <input type="text" id="qrText" placeholder="Ingrese el texto o URL">
+            <button onclick="generarCodigoQR()">Generar QR</button>
+            <div id="qrCodeContainer" class="qr-code-container"></div>
+            <a id="downloadLink" download="codigo_qr.png" style="display: none;">Descargar código QR</a>
+        </div>
+    </div>
+    <script src="https://cdn.rawgit.com/davidshimjs/qrcodejs/gh-pages/qrcode.min.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>
